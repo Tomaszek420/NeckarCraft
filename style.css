@@ -61,7 +61,7 @@ background-color:#bdf0f0;
 text-decoration:none;
 padding: 4px;
 font-size: 20px;
-margin-right: 4px;
+margin-right: 0.5%;
 font-weight: 800;
 border-radius: 5px;
 margin-left: 24%;
@@ -77,9 +77,9 @@ background-color:#bdf0f0;
 text-decoration:none;
 padding: 4px;
 font-size: 20px;
-margin-right: 4px;
 font-weight: 800;
 border-radius: 5px;
+margin-right: 0.5%;
 }
 
 .data3:hover {
@@ -90,6 +90,7 @@ color: black; /* Kolor tekstu po najechaniu */
 font-weight: 700;
 font-size: 20px; 
 margin-left: 16%;
+margin-right: 16%;
 }
 
 .data1:hover {
@@ -222,9 +223,9 @@ color: black; /* Kolor tekstu po najechaniu */
 color:#FFFFFF;
 background-color:#bdf0f0;
 text-decoration:none;
-padding: 2px;
-font-size: 10px;
-margin-right: 4px;
+padding: 3.5px;
+font-size: 9px;
+margin-right: 2px;
 font-weight: 800;
 border-radius: 5px;
 }
@@ -234,16 +235,16 @@ color:#FFFFFF;
 background-color:#bdf0f0;
 text-decoration:none;
 padding: 3.5px;
-font-size: 10px;
+font-size: 9px;
 margin-right: 4px;
 font-weight: 800;
 border-radius: 5px;
-margin-left: 5%;
+margin-left: 2px;
 }
 
 .data2 {
 font-weight: 700;
-font-size: 20px; 
-margin-left: 20%;
+font-size: 18px; 
+margin-left: 23.5%;
 margin-right: 20%;
 }
