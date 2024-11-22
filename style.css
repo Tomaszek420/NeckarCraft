@@ -150,7 +150,7 @@ margin-right:10%;
 background-color:#BABDC2;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
 h1 {
 font-weight: 900;
 font-size: 35px;
@@ -247,4 +247,4 @@ font-weight: 700;
 font-size: 18px; 
 margin-left: 23.5%;
 margin-right: 20%;
-}
+}}
