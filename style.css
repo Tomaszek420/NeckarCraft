@@ -209,7 +209,7 @@ text-decoration:none;
 font-size: 12px;
 font-weight: 800;
 border-radius: 5px;
-margin-left: 23%;
+margin-left: 15%;
 padding:0.7%;
 }
 
@@ -222,7 +222,7 @@ color:#FFFFFF;
 background-color:#bdf0f0;
 text-decoration:none;
 padding: 3.5px;
-font-size: 9px;
+font-size: 8px;
 margin-right: 2px;
 font-weight: 800;
 border-radius: 5px;
@@ -233,11 +233,11 @@ color:#FFFFFF;
 background-color:#bdf0f0;
 text-decoration:none;
 padding: 3.5px;
-font-size: 9px;
-margin-right: 4px;
+font-size: 8px;
+margin-right:2px;
 font-weight: 800;
 border-radius: 5px;
-margin-left: 2px;
+margin-left: 0.5px;
 }
 
 .data2 {
@@ -249,4 +249,9 @@ margin-top: -5px;
 
 .no{
 display: none;
+}
+
+h3{
+margin-top: -4%;
+font-weight: 550;
 }}
