@@ -124,10 +124,6 @@ color:#1A5456;
 margin-top: -25px;
 }
 
-.tab1{
-
-}
-
 .tel1{
 height:250px;
 width:280px;
@@ -324,21 +320,21 @@ height:50px;
 }
 
 .tel1{
-height:40px;
-width:70px;
+height:37px;
+width:67px;
 margin-left:5px;
 }
 
 .mai1{
-height:40px;
-width:70px;
-margin-left: 37px;
+height:37px;
+width:67px;
+margin-left: 34px;
 }
 
 .zeg1{
-height:40px;
-width:40px;
-margin-left: 15px;
+height:37px;
+width:37px;
+margin-left: 12px;
 
 }
 
@@ -346,7 +342,7 @@ margin-left: 15px;
 font-weight: 600;
 font-size: 10px;
 text-align:center;
-margin-left: -10px;
+margin-left: -5px;
 }
 
 .info2{
@@ -357,23 +353,23 @@ margin-left:4px;
 }
 
 .info3{
-font-weight: 750;
-font-size: 10px;
+font-weight: 850;
+font-size: 9px;
 text-align:center;
 }
 
 .info4{
-font-weight: 750;
-font-size: 10px;
+font-weight: 850;
+font-size: 9px;
 text-align:center;
 margin-left:10px;
 }
 
 .info5{
-font-weight: 750;
-font-size: 10px;
+font-weight: 850;
+font-size: 9px;
 text-align:center;
-margin-left:22px;
+margin-left:16px;
 }
 
 .lub{
@@ -424,7 +420,7 @@ padding: 1px;
 }
 
 .text-input1 {
-    width: 90px; /* Szerokość pola */
+    width: 80px; /* Szerokość pola */
     height: 16px; /* Wysokość pola */
     font-size: 6px; /* Rozmiar czcionki */
     padding: 3.4px; /* Odstępy wewnętrzne */
@@ -434,7 +430,7 @@ padding: 1px;
 }
 
 .text-input2 {
-    width: 99px; /* Szerokość pola */
+    width: 89px; /* Szerokość pola */
     height: 16px; /* Wysokość pola */
     font-size: 6px; /* Rozmiar czcionki */
     padding: 3.4px; /* Odstępy wewnętrzne */
@@ -444,8 +440,8 @@ padding: 1px;
 }
 
 .text-input {
-    width: 190px; /* Szerokość pola */
-    height: 73px; /* Wysokość pola */
+    width: 180px; /* Szerokość pola */
+    height: 90px; /* Wysokość pola */
     font-size: 6px; /* Rozmiar czcionki */
     padding: 3.4px; /* Odstępy wewnętrzne */
     border: 1px solid #ccc; /* Kolor ramki */
@@ -454,7 +450,7 @@ padding: 1px;
 }
 
 .tekst3 {
-font-size: 4px;
+font-size: 5px;
 font-weight: 500;
 margin-left: 1px;
 margin-right: 1px;
@@ -465,7 +461,7 @@ color:#FFFFFF;
 background-color:#bdf0f0;
 text-decoration:none;
 font-size: 9px;
-font-weight: 700;
+font-weight: 600;
 border-radius: 5px;
 margin-left: 4%;
 padding:0.7%;
@@ -479,5 +475,5 @@ border: 2px solid #ccc; /* Obramowanie */
 border-radius: 5px; /* Zaokrąglenie krawędzi */
 position: relative;
 cursor: pointer;
-margin-top: -4px;
-}
+margin-top: 10px;
+}}
