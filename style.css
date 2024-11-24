@@ -283,3 +283,10 @@ margin-top:14px;
 width:50px;
 height:50px;
 }
+
+.hr3 {
+border: none;
+height: 4px; 
+background-color: #5DE2E7; 
+width: 70%;   
+}
