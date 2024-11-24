@@ -24,7 +24,7 @@ font-size: 17px;
 color:#1A5456;
 text-align: center;
 margin-top: -57px;
-margin-left: 11.5%;
+margin-left: 8%;
 text-shadow: 4px 4px 5px rgba(73, 210, 205, 2);
 }
 
@@ -42,6 +42,13 @@ height: 4px;
 background-color: #5DE2E7; 
 width: 70%;   
 margin-top:8px
+}
+
+.hr3 {
+border: none;
+height: 4px; 
+background-color: #5DE2E7; 
+width: 70%;   
 }
 		
 .img1 {              
@@ -115,4 +122,86 @@ font-weight: 550;
 font-size: 24px; 
 color:#1A5456;
 margin-top: -25px;
+}
+
+.tab1{
+
+}
+
+.tel1{
+height:250px;
+width:280px;
+}
+
+.mai1{
+height:270px;
+width:420px;
+}
+
+.zeg1{
+height:230px;
+width:230px;
+margin-left:37px;
+}
+
+.info1{
+font-weight: 700;
+font-size: 24px;
+text-align:center;
+}
+
+.info2{
+font-weight: 700;
+font-size: 24px;
+text-align:center;
+margin-left:32px;
+}
+
+.info3{
+font-weight: 750;
+font-size: 30px;
+text-align:center;
+}
+
+.info4{
+font-weight: 750;
+font-size: 30px;
+text-align:center;
+margin-left:47px;
+}
+
+.info5{
+font-weight: 750;
+font-size: 30px;
+text-align:center;
+margin-left:32px;
+}
+
+.lub{
+color:black;
+background-color:#bdf0f0;
+text-decoration:none;
+padding: 4px;
+font-size: 35px;
+font-weight: 800;
+border-radius: 5px;
+margin-left: 100px;
+margin-right: 100px;
+}
+
+.table3 {
+width: 1550px;
+height: 100px;
+text-align: center;
+padding: 3px;
+}
+
+.text-input1 {
+    width: 400px; /* Szerokość pola */
+    height: 50px; /* Wysokość pola */
+    font-size: 16px; /* Rozmiar czcionki */
+    padding: 10px; /* Odstępy wewnętrzne */
+    border: 1px solid #ccc; /* Kolor ramki */
+    border-radius: 5px; /* Zaokrąglenie rogów */
+    resize: both; /* Umożliwia zmianę rozmiaru */
 }
