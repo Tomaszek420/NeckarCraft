@@ -43,7 +43,14 @@ background-color: #5DE2E7;
 width: 70%;   
 margin-top:8px
 }
-		
+
+.hr3 {
+border: none;
+height: 4px; 
+background-color: #5DE2E7; 
+width: 70%;   
+}
+
 .img1 {              
 margin-top:14px;
 width:90px;
