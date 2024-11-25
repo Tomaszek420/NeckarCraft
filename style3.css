@@ -275,7 +275,9 @@ font-size: 20px;
 }	
 
 p{
-font-size:8px;
-margin-left:16%;
-margin-rigbt:16%;
+font-weight: 500;
+font-size: 13.5px; 
+margin-left:4%;
+margin-right:4%;
+margin-top: -1%;
 }
