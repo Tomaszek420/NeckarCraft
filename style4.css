@@ -171,6 +171,14 @@ border-radius: 5px;
 color: black; /* Kolor tekstu po najechaniu */
 }
 
+h6 {
+font-weight: 900;
+font-size: 45px;
+color:#1A5456;
+text-align: center;
+text-shadow: 4px 4px 5px rgba(73, 210, 205, 2);
+}
+
 @media (max-width: 900px) {
 .link{
 font-size: 12px;
@@ -245,4 +253,12 @@ font-size: 13.5px;
 margin-left:4%;
 margin-right:4%;
 margin-top: -1%;
+}
+
+h6 {
+font-weight: 800;
+font-size: 23px;
+color:#1A5456;
+text-align: center;
+text-shadow: 4px 4px 5px rgba(73, 210, 205, 2);
 }
