@@ -36,6 +36,15 @@ width: 70%;
 margin-top:-8px
 }
 
+.img4 {              
+margin-top:14px;
+width:37px;
+height:37px;
+margin-top:-4px;
+margin-bottom:-10px;
+margin-right:6px;
+}
+
 .hr2 {
 border: none;
 height: 4px; 
@@ -481,4 +490,12 @@ border-radius: 5px; /* Zaokrąglenie krawędzi */
 position: relative;
 cursor: pointer;
 margin-top: 10px;
-}}
+}
+
+.img4 {              
+width:22px;
+height:22px;
+margin-top:-4px;
+margin-bottom:-7px;
+margin-right:6px;
+}
