@@ -18,6 +18,15 @@ margin-top: -100px;
 text-shadow: 4px 4px 5px rgba(73, 210, 205, 2);
 }
 
+.img4 {              
+margin-top:14px;
+width:37px;
+height:37px;
+margin-top:-4px;
+margin-bottom:-10px;
+margin-right:6px;
+}
+
 .tekst1 {
 font-weight: 700;
 font-size: 17px; 
@@ -294,4 +303,12 @@ width: 70%;
 .img3 {              
 margin-top:14px;
 height:50px;
+}
+
+.img4 {              
+width:22px;
+height:22px;
+margin-top:-4px;
+margin-bottom:-7px;
+margin-right:6px;
 }
