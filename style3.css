@@ -25,6 +25,15 @@ color:#1A5456;
 text-align: center;
 }
 
+.img4 {              
+margin-top:14px;
+width:37px;
+height:37px;
+margin-top:-4px;
+margin-bottom:-10px;
+margin-right:6px;
+}
+
 h3 {
 font-weight: 700;
 font-size: 30px; 
@@ -281,3 +290,12 @@ margin-left:4%;
 margin-right:4%;
 margin-top: -1%;
 }
+
+.img4 {              
+width:22px;
+height:22px;
+margin-top:-4px;
+margin-bottom:-7px;
+margin-right:6px;
+}
+	
