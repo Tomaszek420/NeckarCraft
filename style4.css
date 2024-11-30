@@ -72,7 +72,7 @@ height:125px;
 }
 		
 .data1 {
-color:#FFFFFF;
+color: black;
 background-color:#bdf0f0;
 text-decoration:none;
 padding: 4px;
@@ -83,11 +83,11 @@ margin-right: 0.5%;
 }
 
 .data2:hover {
-color: black; /* Kolor tekstu po najechaniu */
+color: white; /* Kolor tekstu po najechaniu */
 }
 		
 .data3 {
-color:#FFFFFF;
+color: black;
 background-color:#bdf0f0;
 text-decoration:none;
 padding: 4px;
@@ -98,7 +98,7 @@ margin-right: 0.5%;
 }
 
 .data3:hover {
-color: black; /* Kolor tekstu po najechaniu */
+color: white; /* Kolor tekstu po najechaniu */
 }
 
 .data2 {
@@ -108,7 +108,7 @@ text-align: center;
 }
 
 .data1:hover {
-color: black;
+color: white;
 }
 
 .gallery {
@@ -152,7 +152,7 @@ text-shadow: 2px 2px 3px rgba(73, 210, 205, 2);
 }
 
 .link {
-color:#FFFFFF;
+color: black;
 background-color:#bdf0f0;
 text-decoration:none;
 padding: 4px;
@@ -162,7 +162,7 @@ border-radius: 5px;
 }
 
 .link:hover {
-color: black; /* Kolor tekstu po najechaniu */
+color: white; /* Kolor tekstu po najechaniu */
 }
 
 h6 {
@@ -221,7 +221,7 @@ height:50px;
 
 
 .data3 {
-color:#FFFFFF;
+color: black;
 background-color:#bdf0f0;
 text-decoration:none;
 padding: 3.5px;
@@ -232,7 +232,7 @@ border-radius: 5px;
 }
 
 .data1 {
-color:#FFFFFF;
+color: black;
 background-color:#bdf0f0;
 text-decoration:none;
 padding: 3.5px;
