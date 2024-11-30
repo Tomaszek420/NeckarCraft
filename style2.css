@@ -67,7 +67,7 @@ height:90px;
 }
 
 .data1 {
-color:#FFFFFF;
+color: black;
 background-color:#bdf0f0;
 text-decoration:none;
 padding: 4px;
@@ -78,11 +78,11 @@ margin-right: 0.5%;
 }
 
 .data2:hover {
-color: black; /* Kolor tekstu po najechaniu */
+color: white; /* Kolor tekstu po najechaniu */
 }
 		
 .data3 {
-color:#FFFFFF;
+color: black;
 background-color:#bdf0f0;
 text-decoration:none;
 padding: 4px;
@@ -93,7 +93,7 @@ margin-right: 0.5%;
 }
 
 .data3:hover {
-color: black; /* Kolor tekstu po najechaniu */
+color: white; /* Kolor tekstu po najechaniu */
 }
 
 .data2 {
@@ -103,7 +103,7 @@ text-align: center;
 }
 
 .data1:hover {
-color: black;
+color: white;
 }
 
 .d1{
@@ -239,7 +239,7 @@ resize: both; /* Umożliwia zmianę rozmiaru */
 }
 
 .link {
-color:#FFFFFF;
+color: black;
 background-color:#bdf0f0;
 text-decoration:none;
 font-size: 20px;
@@ -247,6 +247,10 @@ font-weight: 800;
 border-radius: 5px;
 margin-left: 4%;
 padding:0.7%;
+}
+
+.link:hover {
+	color: white;
 }
 
  .custom-checkbox {
@@ -293,7 +297,7 @@ text-shadow: 4px 4px 5px rgba(73, 210, 205, 2);
 }
 
 .data3 {
-color:#FFFFFF;
+color: black;
 background-color:#bdf0f0;
 text-decoration:none;
 padding: 3.5px;
@@ -304,7 +308,7 @@ border-radius: 5px;
 }
 
 .data1 {
-color:#FFFFFF;
+color: black;
 background-color:#bdf0f0;
 text-decoration:none;
 padding: 3.5px;
@@ -471,7 +475,7 @@ margin-right: 1px;
 }
 
 .link {
-color:#FFFFFF;
+color: black;
 background-color:#bdf0f0;
 text-decoration:none;
 font-size: 9px;
