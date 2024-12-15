@@ -1,8 +1,8 @@
 <?php
-$to = 'adres@example.com'; // Wprowadź swój adres e-mail
+$to = 'tomekneckar@gmail.com'; // Wprowadź swój adres e-mail
 $subject = 'Test e-maila';
 $message = 'To jest testowa wiadomość.';
-$headers = 'From: nadawca@example.com' . "\r
+$headers = 'From: tomekneckar@gmail.com' . "\r
 " . // Wprowadź adres e-mail nadawcy
            'Reply-To: nadawca@example.com' . "\r
 " .
