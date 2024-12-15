@@ -1,150 +1,110 @@
 <!DOCTYPE html>
 <html lang="pl-PL">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Tomasz">
-    <meta name="description" content="NeckarCraft">
-    <meta name="keywords" content="NeckarCraft,Usługi,Strona Internetowa">
-    <link rel="stylesheet" href="style2.css">
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <title>NeckarCraft</title>
-    <link rel="icon" href="logo2.JPG" type="image/x-icon">
-    <script>
-        if (window.location.pathname.endsWith('.html')) {
-            const newURL = window.location.pathname.replace('.html', '');
-            window.location.replace(newURL);
-        }
-    </script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Tomasz">
+<meta name="description" content="NeckarCraft">
+<meta name="keywords" content="NeckarCraft,Usługi,Strona Internetowa">
+<link rel="stylesheet" href="style2.css">
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<title>NeckarCraft</title>
+<link rel="icon" href="logo2.JPG" type="image/x-icon">
+<a href="https://neckarcraft.pl">
+<img src="logo.jpg" alt="logoStrony" class="img1"></a>
+  <script>
+  if
+    (windows.location.pathname.endsWith('.html')){
+        const newUR1 = windows.location.pathname.replace('.html','');
+
+    windows.location.replace(newUr1);
+}
+</script>
 </head>
 <body>
-    <div>
-        <h1>NeckarCraft</h1>
-        <p class="tekst1">PROFESJONALNE USŁUGI</p>
-        <hr class="hr1">
-    </div>
-    <div id="data" class="data2">
-        <a href="https://neckarcraft.pl">
-            <img src="dom1.png" class="img4">
-        </a>
-        <a href="https://neckarcraft.pl#omnie1" class="data1">O NAS</a>
-        <a href="https://neckarcraft.pl/projekty" class="data3">PROJEKTY</a>
-        <a href="https://neckarcraft.pl/uslugi" class="data3">USŁUGI</a>
-        <a href="https://neckarcraft.pl/kontakt" class="data3">KONTAKT</a>
-    </div>
-    <hr class="hr2">
-    <div class="d1"><br>
-        <center>
-            <h2>Masz pytanie?</h2>
-            <h3>Skontaktuj się z nami!</h3>
-        </center>
-        <hr class="hr3"><br>
-        <center>
-            <table class="tab1">
-                <tr>
-                    <td><img src="tel1.png" alt="telefon" class="tel1"></td>
-                    <td><img src="mai1.png" alt="mail" class="mai1"></td>
-                    <td><img src="zeg1.png" alt="zegar" class="zeg1"></td>
-                </tr>
-                <tr>
-                    <td><p class="info1">ZADZWOŃ</p></td>
-                    <td><p class="info1">NAPISZ</p></td>
-                    <td><p class="info2">PRACUJEMY</p></td>
-                </tr>
-                <tr>
-                    <td><p class="info3">+48 792 964 016</p></td>
-                    <td><p class="info5">tomekneckar@gmail.com</p></td>
-                    <td><p class="info4">8:00-20:00</p></td>
-                </tr>
-            </table><br>
-        </center>
-    </div>
-    <center>
-        <h6 class="lub">INACZEJ</h6><br>
-        <div class="d1"><br>
-            <h2> Skorzystaj z formularza</h2>
-            <hr class="hr3"><br>
-            <form action="" method="POST">
-                <table class="table3">
-                    <tr>
-                        <td>
-                            <input type="text" class="text-input1" id="firstName" name="firstName" required placeholder="Imię i Nazwisko">
-                        </td>
-                        <td>
-                            <input type="tel" id="phone" name="phone" placeholder="Numer telefonu" class="text-input1">
-                        </td>
-                        <td>
-                            <input type="email" class="text-input1" name="mail" required placeholder="E-mail">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <select id="usluga" class="text-input2" name="usluga" required>
-                                <option selected disabled>Usługa:</option>
-                                <option value="m">Strona Internetowa</option>
-                                <option value="l">Serwer Discord</option>
-                                <option value="y">Bot Discord</option>
-                                <option value="g">Grafika</option>
-                            </select>
-                        </td>
-                        <td rowspan="2" colspan="2">
-                            <textarea class="text-input" name="message" placeholder="Wpisz swoją treść tutaj..." required></textarea>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label for="confirm">
-                                <p class="tekst3">Wyrażam zgodę na przetwarzanie podanych przeze mnie danych.</p>
-                                <p class="tekst3">Podaję dane osobowe dobrowolnie i oświadczam, że podane dane są zgodne z prawdą.</p>
-                                <p class="tekst3">Oświadczam, że zapoznałem się i akceptuję politykę bezpieczeństwa przetwarzania danych osobowych.</p>
-                                <span id="error" class="error" style="display:none;">Musisz potwierdzić zapoznanie się z regulaminem!</span>
-                            </label>
-                        </td>
-                    </tr>
-                </table>
-                <input type="checkbox" id="confirm" name="confirm" required class="custom-checkbox">
-                <label for="confirm"><input type="submit" value="Wyślij" class="link"></label>
-            </form>
-            <br>
-            <h6><center><i>NECKARCRAFT</i></center></h6><br>
-        </div><br><br>
-        <hr class="hr1">
-    </center>
-    <footer>
-        <center>
-            <a href="https://neckarcraft.pl">
-                <img src="logo.jpg" alt="logoStrony" class="img2">
-            </a><br><br>
-            <p>&copy; 2024 Tomasz Neckar. Wszystkie prawa zastrzeżone.</p>
-        </center>
-    </footer><br>
-
-    <?php
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        $firstName = htmlspecialchars($_POST['firstName']);
-        $phone = htmlspecialchars($_POST['phone']);
-        $email = htmlspecialchars($_POST['mail']);
-        $usluga = htmlspecialchars($_POST['usluga']);
-        $message = htmlspecialchars($_POST['message']);
-
-        $to = "tomekneckar@gmail.com";
-        $subject = "Nowa wiadomość od $firstName";
-        $body = "Imię i Nazwisko: $firstName
-" .
-                "Numer telefonu: $phone
-" .
-                "E-mail: $email
-" .
-                "Usługa: $usluga
-" .
-                "Wiadomość:\n$message";
-
-        if(mail($to, $subject, $body)) {
-            echo "<script>alert('Wiadomość została wysłana!');</script>";
-        } else {
-            echo "<script>alert('Wysłanie wiadomości nie powiodło się.');</script>";
-        }
-    }
-    ?>
+<div>
+<h1>NeckarCraft</h1>
+<p class="tekst1">PROFESJONALNE USŁUGI</p>
+<hr class="hr1"></div>
+<div id="data" class="data2">	
+<a href="https://neckarcraft.pl/#omnie1" class="data1">O NAS</a>
+<a href="https://neckarcraft.pl/projekty" class="data3">PROJEKTY</a>
+<a href="https://neckarcraft.pl/uslugi" class="data3">USŁUGI</a>
+<a href="https://neckarcraft.pl/kontakt" class="data3">KONTAKT</a></div><hr class="hr2">
+<div class="d1"><br>
+<center><h2>Masz pytanie?</h2>
+<h3>Skontaktuj się z nami!</h3></center>
+<hr class="hr3"><br><center>
+<table class="tab1">
+<tr>
+<td><img src="tel1.png" alt="telefon" class="tel1"></a></td>
+<td><img src="mai1.png" alt="mail" class="mai1"></a></td>
+<td><img src="zeg1.png" alt="zegar" class="zeg1"></a></td>
+</tr>
+<tr>
+<td><p class="info1">ZADZWOŃ</p></td>
+<td><p class="info1">NAPISZ</p></td>
+<td><p class="info2">PRACUJEMY</p></td>
+</tr>
+<tr>
+<td><p class="info3">+48 792 964 016</p></td>
+<td><p class="info5">tomekneckar@gmail.com</p></td>
+<td><p class="info4">8:00-20:00</p></td>
+</tr></center>
+</table><br></div>
+<center><h6 class="lub">INACZEJ</h6><br>
+<div class="d1"><br>
+<h2> Skorzystaj z formularza</h2>
+<hr class="hr3"><br>
+<form action="mailto:tomekneckar@gmail.com" method="POST" enctype="text/plain">
+<table class="table3">
+	<tr>
+		<td>
+			<input type="text" class="text-input1" id="firstName" name="firstName" required size="auto" placeholder="Imię i Nazwisko">
+		</td>
+		<td>
+			<input type="tel" id="phone" name="phone" placeholder="Numer telefonu" class="text-input1">
+		</td>
+		<td>
+			<input type="email" class="text-input1" name="mail" required size="auto" placeholder="E-mail">
+		</td>
+	</tr>
+	<tr></tr>
+	<tr>
+		<td>
+				<select id="usluga" class="text-input2" required size="auto">
+				<option selected>Usługa:</option>
+				<option value="m">Strona Internetowa</option>
+				<option value="l">Serwer Discord</option>
+				<option value="y">Bot Discord</option>
+				<option value="g">Grafika</option>
+				</select>
+		</td>
+		<td rowspan="2" colspan="2">
+			<textarea class="text-input" name="message" placeholder="Wpisz swoją treść tutaj..." required></textarea>
+		</td>
+	</tr>
+	<tr>
+		<td><label for="confirm">
+			<p class="tekst3">Wyrażam zgodę na przetwarzanie podanych przeze mnie danych.</p> 
+			<p class="tekst3">Podaję dane osobowe dobrowolnie i oświadczam, że podane dane są zgodne z prawdą.</p>
+			<p class="tekst3">Oświadczam, że zapoznałem się i akceptuję politykę bezpieczeństwa przetwarzania </p>
+			<p class="tekst3">danych osobowych, w szczególności dotyczącą celu i sposobów przetwarzania danych </p>
+			<p class="tekst3">osobowych oraz prawie dostępu do treści swoich danych oraz ich poprawiania i usuwania.</p>
+			<span id="error" class="error" style="display:none;">Musisz potwierdzić zapoznanie się z regulaminem!</span>
+		</td>
+	</tr>
+</table>
+<input type="checkbox" id="confirm" name="confirm" required class="custom-checkbox"><label for="confirm"><input type="submit" value="Wyślij" class="link"></form><br>
+<h6><center><i>NECKARCRAFT</i></center></h6><br>
+</div><br><br><hr class="hr1">
+</div>
+<footer>
+<center>
+<a href="https://neckarcraft.pl">
+<img src="logo.jpg" alt="logoStrony" class="img2"></a><br><br>
+<p>&copy; 2024 Tomasz Neckar. Wszystkie prawa zastrzeżone.</p></center>
+</footer><br><br><br>
+</div>
 </body>
 </html>
