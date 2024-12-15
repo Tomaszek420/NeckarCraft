@@ -127,7 +127,6 @@
         $usluga = htmlspecialchars($_POST['usluga']);
         $message = htmlspecialchars($_POST['message']);
 
-        // Tutaj możesz dodać logikę do przetwarzania danych, np. wysyłanie wiadomości e-mail
         $to = "tomekneckar@gmail.com";
         $subject = "Nowa wiadomość od $firstName";
         $body = "Imię i Nazwisko: $firstName
@@ -140,7 +139,6 @@
 " .
                 "Wiadomość:\n$message";
 
-        // Wysyłanie e-maila (upewnij się, że serwer obsługuje funkcję mail)
         if(mail($to, $subject, $body)) {
             echo "<script>alert('Wiadomość została wysłana!');</script>";
         } else {
