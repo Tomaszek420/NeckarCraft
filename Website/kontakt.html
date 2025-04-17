@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Tomasz">
+<meta name="description" content="NeckarCraft">
+<meta name="keywords" content="NeckarCraft,Usługi,Strona Internetowa">
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<title>NeckarCraft</title>
+
+	<style>
+			@import 
+		url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+		body {
+		font-family: 'Montserrat', 
+		sans-serif;
+
+		background-color:#B0B3B7;
+		color:#294749;
+		}
+
+		h1 {
+		font-weight: 900;
+		font-size: 75px; 
+		color:#1A5456;
+		text-align: center;
+		margin-top: -100px;
+		text-shadow: 4px 4px 5px rgba(73, 210, 205, 2);
+		}
+
+		.tekst1 {
+		font-weight: 700;
+		font-size: 17px; 
+		color:#1A5456;
+		text-align: center;
+		margin-top: -57px;
+		margin-left: 8%;
+		text-shadow: 4px 4px 5px rgba(73, 210, 205, 2);
+		}
+
+		.hr1 {
+		border: none;
+		height: 4px; 
+		background-color: #5DE2E7; 
+		width: 70%;  
+		margin-top:-8px
+		}
+
+		.img4 {              
+		margin-top:14px;
+		width:37px;
+		height:37px;
+		margin-top:-4px;
+		margin-bottom:-10px;
+		margin-right:6px;
+		}
+
+		.hr2 {
+		border: none;
+		height: 4px; 
+		background-color: #5DE2E7; 
+		width: 70%;   
+		margin-top:8px
+		}
+
+		.hr3 {
+		border: none;
+		height: 4px; 
+		background-color: #5DE2E7; 
+		width: 70%;   
+		}
+				
+		.img1 {              
+		margin-top:14px;
+		width:90px;
+		height:90px;
+		}
+
+		.data1 {
+		color: black;
+		background-color:#bdf0f0;
+		text-decoration:none;
+		padding: 4px;
+		font-size: 20px;
+		font-weight: 800;
+		border-radius: 5px;
+		margin-right: 0.5%;
+		}
+
+		.data2:hover {
+		color: white; /* Kolor tekstu po najechaniu */
+		}
+				
+		.data3 {
+		color: black;
+		background-color:#bdf0f0;
+		text-decoration:none;
+		padding: 4px;
+		font-size: 20px;
+		font-weight: 800;
+		border-radius: 5px;
+		margin-right: 0.5%;
+		}
+
+		.data3:hover {
+		color: white; /* Kolor tekstu po najechaniu */
+		}
+
+		.data2 {
+		font-weight: 700;
+		font-size: 20px; 
+		text-align: center;
+		}
+
+		.data1:hover {
+		color: white;
+		}
+
+		.d1{
+		background-color:#BABDC2;
+		margin-left:10%;
+		margin-right:10%;
+		}
+
+		.hr3 {
+		border: none;
+		height: 4px; 
+		background-color: #5DE2E7; 
+		width: 10%;
+		margin-top: -5px;  
+		}
+
+		h2{
+		font-weight: 850;
+		font-size: 39px; 
+		color:#1A5456;
+		}
+
+		h3{
+		font-weight: 550;
+		font-size: 24px; 
+		color:#1A5456;
+		margin-top: -25px;
+		}
+
+		.tel1{
+		height:250px;
+		width:280px;
+		}
+
+		.mai1{
+		height:270px;
+		width:420px;
+		}
+
+		.zeg1{
+		height:230px;
+		width:230px;
+		margin-left:37px;
+		}
+
+		.info1{
+		font-weight: 700;
+		font-size: 24px;
+		text-align:center;
+		}
+
+		.info2{
+		font-weight: 700;
+		font-size: 24px;
+		text-align:center;
+		margin-left:32px;
+		}
+
+		.info3{
+		font-weight: 750;
+		font-size: 30px;
+		text-align:center;
+		}
+
+		.info4{
+		font-weight: 750;
+		font-size: 30px;
+		text-align:center;
+		margin-left:47px;
+		}
+
+		.info5{
+		font-weight: 750;
+		font-size: 30px;
+		text-align:center;
+		margin-left:32px;
+		}
+
+		.lub{
+		color:black;
+		background-color:#bdf0f0;
+		text-decoration:none;
+		padding: 4px;
+		font-size: 35px;
+		font-weight: 800;
+		border-radius: 5px;
+		margin-left: 100px;
+		margin-right: 100px;
+		}
+
+		.table3 {
+		width: 90%;
+		height: 100px;
+		text-align: center;
+		padding: 3px;
+		}
+
+		.text-input1 {
+			width: 90%; /* Szerokość pola */
+			height: 50px; /* Wysokość pola */
+			font-size: 16px; /* Rozmiar czcionki */
+			padding: 10px; /* Odstępy wewnętrzne */
+			border: 1px solid #ccc; /* Kolor ramki */
+			border-radius: 5px; /* Zaokrąglenie rogów */
+			resize: both; /* Umożliwia zmianę rozmiaru */
+		}
+
+		.text-input {
+			width: 95%; /* Szerokość pola */
+			height: 350px; /* Wysokość pola */
+			font-size: 16px; /* Rozmiar czcionki */
+			padding: 10px; /* Odstępy wewnętrzne */
+			border: 1px solid #ccc; /* Kolor ramki */
+			border-radius: 5px; /* Zaokrąglenie rogów */
+			resize: both; /* Umożliwia zmianę rozmiaru */
+		}
+
+		.tekst3 {
+		margin-left: -10%;
+		font-size: 13px;
+		font-weight: 550;
+		margin-top: -4px;
+		}
+
+		.text-input2 {
+		width: 93.5%; /* Szerokość pola */
+		height: 50px; /* Wysokość pola */
+		font-size: 16px; /* Rozmiar czcionki */
+		padding: 10px; /* Odstępy wewnętrzne */
+		border: 1px solid #ccc; /* Kolor ramki */
+		border-radius: 5px; /* Zaokrąglenie rogów */
+		resize: both; /* Umożliwia zmianę rozmiaru */
+		}
+
+		.link {
+		color: black;
+		background-color:#bdf0f0;
+		text-decoration:none;
+		font-size: 20px;
+		font-weight: 800;
+		border-radius: 5px;
+		margin-left: 4%;
+		padding:0.7%;
+		}
+
+		.link:hover {
+			color: white;
+		}
+
+		 .custom-checkbox {
+		display: inline-block;
+		width: 20px; /* Szerokość checkboxa */
+		height: 20px; /* Wysokość checkboxa */
+		border: 2px solid #ccc; /* Obramowanie */
+		border-radius: 5px; /* Zaokrąglenie krawędzi */
+		position: relative;
+		cursor: pointer;
+		margin-top: -2px;
+		}
+
+		.img2 {              
+		width:125px;
+		height:125px;
+		margin-top: 70px;
+		}
+
+		h6 {
+		font-weight: 900;
+		font-size: 45px; 
+		color:#1A5456;
+		text-align: center;
+		text-shadow: 4px 4px 5px rgba(73, 210, 205, 2);
+		}
+
+		@media (max-width: 900px) {
+			
+		h1 {
+		font-weight: 900;
+		font-size: 35px;
+		margin-top: -60px;
+		}
+
+		.tekst1 {
+		font-weight: 700;
+		font-size: 9px; 
+		color:#1A5456;
+		text-align: center;
+		margin-top: -27px;
+		margin-left: 16%;
+		text-shadow: 4px 4px 5px rgba(73, 210, 205, 2);
+		}
+
+		.data3 {
+		color: black;
+		background-color:#bdf0f0;
+		text-decoration:none;
+		padding: 3.5px;
+		font-size: 8px;
+		margin-right: 2px;
+		font-weight: 800;
+		border-radius: 5px;
+		}
+
+		.data1 {
+		color: black;
+		background-color:#bdf0f0;
+		text-decoration:none;
+		padding: 3.5px;
+		font-size: 8px;
+		margin-right:2px;
+		font-weight: 800;
+		border-radius: 5px;
+		margin-left: 0.5px;
+		}
+
+		.data2 {
+		font-weight: 700;
+		font-size: 18px; 
+		text-align: center;
+		margin-top: -5px;
+		}
+
+		.img1 {              
+		margin-top:14px;
+		width:50px;
+		height:50px;
+		}
+
+		.img2 {              
+		width:80px;
+		height:80px;
+		}
+
+		.tel1{
+		height:37px;
+		width:67px;
+		margin-left:5px;
+		}
+
+		.mai1{
+		height:37px;
+		width:67px;
+		margin-left: 34px;
+		}
+
+		.zeg1{
+		height:37px;
+		width:37px;
+		margin-left: 12px;
+
+		}
+
+		.info1{
+		font-weight: 600;
+		font-size: 10px;
+		text-align:center;
+		margin-left: -5px;
+		}
+
+		.info2{
+		font-weight: 600;
+		font-size: 10px;
+		text-align:center;
+		margin-left:4px;
+		}
+
+		.info3{
+		font-weight: 850;
+		font-size: 9px;
+		text-align:center;
+		}
+
+		.info4{
+		font-weight: 850;
+		font-size: 9px;
+		text-align:center;
+		margin-left:10px;
+		}
+
+		.info5{
+		font-weight: 850;
+		font-size: 9px;
+		text-align:center;
+		margin-left:16px;
+		}
+
+		.lub{
+		color:black;
+		background-color:#bdf0f0;
+		text-decoration:none;
+		padding: 4px;
+		font-size: 35px;
+		font-weight: 800;
+		border-radius: 5px;
+		margin-left: 100px;
+		margin-right: 100px;
+		}
+
+		h2{
+		font-size: 30px;
+		}
+
+		h3{
+		font-size: 20px;
+		}
+
+		.lub{
+		color:black;
+		background-color:#bdf0f0;
+		text-decoration:none;
+		padding: 4px;
+		font-size: 14px;
+		font-weight: 800;
+		border-radius: 5px;
+		margin-left: 100px;
+		margin-right: 100px;
+		}
+
+		h6 {
+		font-weight: 800;
+		font-size: 23px; 
+		color:#1A5456;
+		text-align: center;
+		text-shadow: 4px 4px 5px rgba(73, 210, 205, 2);
+		}
+
+		.table3 {
+		width: 80%;
+		height: 32px;
+		text-align: center;
+		padding: 1px;
+		}
+
+		.text-input1 {
+			width: 80px; /* Szerokość pola */
+			height: 16px; /* Wysokość pola */
+			font-size: 6px; /* Rozmiar czcionki */
+			padding: 3.4px; /* Odstępy wewnętrzne */
+			border: 1px solid #ccc; /* Kolor ramki */
+			border-radius: 5px; /* Zaokrąglenie rogów */
+			resize: both; /* Umożliwia zmianę rozmiaru */
+		}
+
+		.text-input2 {
+			width: 89px; /* Szerokość pola */
+			height: 16px; /* Wysokość pola */
+			font-size: 6px; /* Rozmiar czcionki */
+			padding: 3.4px; /* Odstępy wewnętrzne */
+			border: 1px solid #ccc; /* Kolor ramki */
+			border-radius: 5px; /* Zaokrąglenie rogów */
+			resize: both; /* Umożliwia zmianę rozmiaru */
+		}
+
+		.text-input {
+			width: 180px; /* Szerokość pola */
+			height: 90px; /* Wysokość pola */
+			font-size: 6px; /* Rozmiar czcionki */
+			padding: 3.4px; /* Odstępy wewnętrzne */
+			border: 1px solid #ccc; /* Kolor ramki */
+			border-radius: 5px; /* Zaokrąglenie rogów */
+			resize: both; /* Umożliwia zmianę rozmiaru */
+		}
+
+		.tekst3 {
+		font-size: 5px;
+		font-weight: 500;
+		margin-left: 1px;
+		margin-right: 1px;
+		}
+
+		.link {
+		color: black;
+		background-color:#bdf0f0;
+		text-decoration:none;
+		font-size: 9px;
+		font-weight: 600;
+		border-radius: 5px;
+		margin-left: 4%;
+		padding:0.7%;
+		}
+
+		 .custom-checkbox {
+		display: inline-block;
+		width: 10px; /* Szerokość checkboxa */
+		height: 10px; /* Wysokość checkboxa */
+		border: 2px solid #ccc; /* Obramowanie */
+		border-radius: 5px; /* Zaokrąglenie krawędzi */
+		position: relative;
+		cursor: pointer;
+		margin-top: 10px;
+		}
+
+		.img4 {              
+		width:22px;
+		height:22px;
+		margin-top:-4px;
+		margin-bottom:-7px;
+		margin-right:6px;
+		}
+
+	</style>
+	
+<link rel="icon" href="logo2.JPG" type="image/x-icon">
+<a href="https://neckarcraft.pl">
+<img src="logo.jpg" alt="logoStrony" class="img1"></a>
+  <script>
+  if
+    (windows.location.pathname.endsWith('.html')){
+        const newUR1 = windows.location.pathname.replace('.html','');
+
+    windows.location.replace(newUr1);
+}
+</script>
+</head>
+
+<body>
+<div>
+<h1>NeckarCraft</h1>
+<p class="tekst1">PROFESJONALNE USŁUGI</p>
+<hr class="hr1"></div>
+<div id="data" class="data2"><a href="https://neckarcraft.pl">
+<img src="dom1.png" class="img4"></a>
+<a href="https://neckarcraft.pl#omnie1" class="data1">O NAS</a>
+<a href="https://neckarcraft.pl/projekty" class="data3">PROJEKTY</a>
+<a href="https://neckarcraft.pl/uslugi" class="data3" class="data3">USŁUGI</a>
+<a href="https://neckarcraft.pl/kontakt" class="data3">KONTAKT</a></div><hr class="hr2">
+<div class="d1"><br>
+<center><h2>Masz pytanie?</h2>
+<h3>Skontaktuj się z nami!</h3></center>
+<hr class="hr3"><br><center>
+		<table class="tab1">
+			<tr>
+			<td><img src="tel1.png" alt="telefon" class="tel1"></a></td>
+			<td><img src="mai1.png" alt="mail" class="mai1"></a></td>
+			<td><img src="zeg1.png" alt="zegar" class="zeg1"></a></td>
+			</tr>
+			<tr>
+			<td><p class="info1">ZADZWOŃ</p></td>
+			<td><p class="info1">NAPISZ</p></td>
+			<td><p class="info2">PRACUJEMY</p></td>
+			</tr>
+			<tr>
+			<td><p class="info3">+48 792 964 016</p></td>
+			<td><p class="info5">tomekneckar@gmail.com</p></td>
+			<td><p class="info4">8:00-20:00</p></td>
+			</tr></center>
+		</table>
+<br></div>
+<center><h6 class="lub">INACZEJ</h6><br>
+<div class="d1"><br>
+<h2> Skorzystaj z formularza</h2>
+<hr class="hr3"><br>
+<form action="mailto:tomekneckar@gmail.com" method="post" enctype="text/plain">
+<table class="table3">
+	<tr>
+		<td>
+			<input type="text" class="text-input1" id="name" name="name" required size="auto" placeholder="Imię i Nazwisko">
+		</td>
+		<td>
+			<input type="tel" id="phone" name="phone" placeholder="Numer telefonu" class="text-input1">
+		</td>
+		<td>
+			<input type="mail" class="text-input1" name="mail" required size="auto" placeholder="E-mail">
+		</td>
+	</tr>
+	<tr></tr>
+	<tr>
+		<td>
+				<select id="usluga" name="usluga" class="text-input2" required size="auto">
+				<option selected>Usługa:</option>
+				<option value="StronyInternetowe">Strona Internetowa</option>
+				<option value="Serwer Discord">Serwer Discord</option>
+				<option value="Bot Discord">Bot Discord</option>
+				<option value="Grafika">Grafika</option>
+				</select>
+		</td>
+		<td rowspan="2" colspan="2">
+			<textarea class="text-input" name="message" placeholder="Wpisz swoją treść tutaj..." required></textarea>
+		</td>
+	</tr>
+	<tr>
+		<td><label for="confirm">
+			<p class="tekst3">Wyrażam zgodę na przetwarzanie podanych przeze mnie danych.</p> 
+			<p class="tekst3">Podaję dane osobowe dobrowolnie i oświadczam, że podane dane są zgodne z prawdą.</p>
+			<p class="tekst3">Oświadczam, że zapoznałem się i akceptuję politykę bezpieczeństwa przetwarzania </p>
+			<p class="tekst3">danych osobowych, w szczególności dotyczącą celu i sposobów przetwarzania danych </p>
+			<p class="tekst3">osobowych oraz prawie dostępu do treści swoich danych oraz ich poprawiania i usuwania.</p>
+			<span id="error" class="error" style="display:none;">Musisz potwierdzić zapoznanie się z regulaminem!</span>
+		</td>
+	</tr>
+</table>
+<input type="checkbox" id="confirm" name="confirm" required class="custom-checkbox"><label for="confirm"><input type="submit" value="Wyślij" class="link"></form><br>
+<h6><center><i>NECKARCRAFT</i></center></h6><br>
+</div><br><br><hr class="hr1">
+</div>
+<footer>
+<center>
+<a href="https://neckarcraft.pl">
+<img src="logo.jpg" alt="logoStrony" class="img2"></a><br><br>
+<p>&copy; 2024 Tomasz Neckar. Wszystkie prawa zastrzeżone.</p></center>
+</footer><br><br><br>
+</div>
+</body>
+</html>
